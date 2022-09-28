@@ -2,22 +2,34 @@
 
 <html>
 
+<div>
 <head>
     <meta charset="utf-8">
     <title>Odin Recipes</title>
 </head>
 
 <body>
-    <h1>Odin Recipes</h1>
-    <img src="https://i.pinimg.com/originals/c7/94/be/c794be5349bc93ec47a2a17daab1b279.gif">
-    <p>
-        <a href="recipes/allavodka.html">Pasta Alla Vodka</a>
-    </p>
-    <p>
-        <a href="recipes/shrimpfriedrice.html">Shrimp Fried Rice</a>
-    </p>
-    <p>
-        <a href="recipes/salmononigiri.html">Salmon Onigiri</a>
-    </p>
-    
+    <h1 class="title">Odin Recipes</h1>
+    <img src="https://i.pinimg.com/originals/c7/94/be/c794be5349bc93ec47a2a17daab1b279.gif" class="cut">
+    <div><a href="recipes/allavodka.html">Pasta Alla Vodka</a></div>
+    <div><a href="recipes/shrimpfriedrice.html">Shrimp Fried Rice</a></div>
+    <div><a href="recipes/salmononigiri.html">Salmon Onigiri</a></div>    
     </body>
+    
+    </div>
+
+</html>
+
+<style>
+    .title {
+        text-align: center;
+    }
+
+    .cut {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+</style>
